@@ -1,0 +1,19 @@
+This is blue colour object tracking example for python.
+You can change the limits for the tracks by changing the limits of the following lines,
+ 
+  blueLower = np.array([100, 67, 0], dtype = "uint8")
+  blueUpper = np.array([255, 128, 50], dtype = "uint8")
+  
+This methods detect the largest contour that can detect in the picture.
+If you want to run a custom video file you can just uncommnt the comments that I have put and run the file again.
+
+ex :- ap = argparse.ArgumentParser()
+
+      ap.add_argument("-v", "--video",
+      help = "path to the (optional) video file")
+      args = vars(ap.parse_args())
+      
+      (Put the file you want to run in the video file path)
+
+  
+  
